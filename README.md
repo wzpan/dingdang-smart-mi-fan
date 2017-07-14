@@ -43,7 +43,7 @@ mkdir /home/pi/.dingdang/custom
 然后，确保你的智米电风扇已开机并和叮当所在的机器处于同一个局域网下。然后执行以下命令获取风扇的 `host` 和  `token`:
 
 ``` sh
-miio discover
+miio2 discover
 ```
 
 最后在 /home/pi/.dingdang/profile.yml 中添加如下配置：
