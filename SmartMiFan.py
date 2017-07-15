@@ -206,8 +206,7 @@ def response(fan, angle, prop, text, mic):
     elif any(ext in text for ext in [u"开", u"启动"]):
         if not is_on:
             fan.send('set_power', ['on'])
-            return
-        mic.say('风扇已开启')        
+        mic.say('风扇已开启')
     elif u'关闭' in text:
         if not is_on:
             mic.say('请先打开风扇')

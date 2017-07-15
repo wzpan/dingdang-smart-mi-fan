@@ -8,6 +8,10 @@
 * 自然风开关
 * 摇头开关
 
+## Demo
+
+[Demo](http://t.cn/RK05OV8)
+
 ## 依赖
 
 * python2-miio
